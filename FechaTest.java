@@ -1,5 +1,7 @@
 package examen;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -7,8 +9,16 @@ import org.junit.jupiter.api.Test;
 class FechaTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void CP1() {
+		assertFalse();
 	}
-
+	void CP2() {
+		assertFalse();
+	}
+	void CP3() {
+		assertTrue();
+	}
+	void CP4() {
+		assertTrue();
+	}
 }
